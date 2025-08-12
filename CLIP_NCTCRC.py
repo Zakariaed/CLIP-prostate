@@ -27,7 +27,7 @@ parser.add_argument('--fold', default=1, type=int, help='(ignored for this datas
 parser.add_argument('--bs', default=64, type=int, help='batch_size')
 parser.add_argument('--lr', default=0.003, type=float, help='learning rate')
 parser.add_argument('--resume', '-r', action='store_true', help='resume from checkpoint')
-parser.add_argument('--workers', type=int, default=8)
+parser.add_argument('--workers', type=int, default=4)
 parser.add_argument('--epochs', type=int, default=40)
 parser.add_argument('--weight-decay', type=float, default=1e-4)
 parser.add_argument('--file_path', type=str, default='nct_crc_he_100k.csv', help='CSV describing dataset')
