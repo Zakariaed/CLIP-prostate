@@ -24,7 +24,7 @@ parser.add_argument('--model', type=str, default='Ourmodel', help='CNN architect
 parser.add_argument('--mode', type=int, default=1, help='Feature mode (0=image, 1=image+text)')
 parser.add_argument('--dataset', type=str, default='NCTCRC_Ourmodel', help='dataset folder prefix')
 parser.add_argument('--fold', default=1, type=int, help='(ignored for this dataset)')
-parser.add_argument('--bs', default=64, type=int, help='batch_size')
+parser.add_argument('--bs', default=8, type=int, help='batch_size')
 parser.add_argument('--lr', default=0.003, type=float, help='learning rate')
 parser.add_argument('--resume', '-r', action='store_true', help='resume from checkpoint')
 parser.add_argument('--workers', type=int, default=4)
