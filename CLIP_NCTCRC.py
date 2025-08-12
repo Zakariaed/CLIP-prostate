@@ -13,7 +13,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import f1_score, accuracy_score
 import clip
-from nct_crc_dataset import NCTCRC      # <-- your CSV-based dataset
+from preprocess_NCTCRC import NCTCRC      # <-- your CSV-based dataset
 import utils
 
 # -------------------
